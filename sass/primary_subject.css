@@ -1,0 +1,94 @@
+#subject-name{
+    display: inline-block;
+    text-align: center;
+    font-family: AdobeHeitiStd-Regular;
+    font-size:48px;
+    line-height: 48px;
+    color: #543110;
+    position: absolute;
+    width: 1113px;
+    margin-top: 49px;
+}
+#main-content{
+    margin-top: 172px;
+    display: inline-flex;
+    height: 493px;
+    width: 1113px;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#main-content-left{
+    height: 493px;
+    width: 442px;
+    border-radius: 12px;
+    overflow-x:visible;
+    background: #fff;
+}
+#main-content-right {
+    height: 493px;
+    width: 645px;
+    border-radius: 12px;
+    background: #fff;
+}
+#volume-list{
+    display: inline-flex;
+    padding: 0 20%;
+    width: 100%;
+    box-sizing: border-box;
+    height: 53px;
+}
+#volume-list li{
+    font-family: "Microsoft YaHei";
+    font-size: 26px;
+    color: #333;
+    line-height: 53px;
+    font-weight:bold;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#volume-list .active{
+    background: url("../assets/images/primary/volume_active.png");
+    background-size: 100%;
+    background-position: center center;
+}
+#class-list{
+    margin-top: 23px;
+    border-top:1px solid #e1e1e1;
+}
+#class-list .class-item{
+    line-height: 51px;
+    font-size:26px;
+    width: 458px;
+}
+#class-list .class-item span{
+    display: inline-block;
+    width: 442px;
+    line-height: 51px;
+    font-size:26px;
+    text-align: left;
+    text-indent: 26px;
+    cursor: pointer;
+    border-bottom:1px solid #e1e1e1;
+    margin-left: -13px;
+}
+#class-list .active{
+    background: url("../assets/images/primary/subject_arrow.png");
+    background-size: 100%;
+    background-position: center center;
+}
+.next-class-page{
+    display: inline-block;
+    width: 62px;
+    height:59px;
+    cursor: pointer;
+    background: url("../assets/images/primary/arrow_down.png") no-repeat center;
+}
+.next-class-page:hover{
+    background: url("../assets/images/primary/arrow_down_active.png");
+}
+.next-class-page:active{
+    background: url("../assets/images/primary/arrow_down_active.png");
+}
