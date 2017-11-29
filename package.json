@@ -1,0 +1,23 @@
+{
+  "name": "shanxiproduction",
+  "version": "1.0.0",
+  "description": "山西IPTV项目",
+  "main": "index.js",
+  "scripts": {
+    "build": ""
+  },
+  "dependencies": {
+    "webpack":"^1.15.0"
+  },
+  "devDependencies": {
+    "cross-env": "^3.2.4",
+    "css-loader": "^0.23.0",
+    "node-sass": "^3.13.1",
+    "webpack": "^1.15.0",
+    "webpack-dev-middleware": "^1.4.0",
+    "webpack-hot-middleware": "^2.6.0",
+    "why-did-you-update": "0.0.8"
+  },
+  "author": "lsmtty",
+  "license": "ISC"
+}

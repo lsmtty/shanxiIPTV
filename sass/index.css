@@ -1,0 +1,157 @@
+@media screen and (min-width: 2161px){
+    #main-content{
+        margin-top:8.9%;
+    }
+    #carousel{
+        margin-top:1.8% ;
+    }
+}
+@media screen and (max-width: 2160px){
+    #main-content{
+        margin-top:10.9%;
+    }
+    #carousel{
+        margin-top:1.8% ;
+    }
+}
+@media screen and (max-width: 1550px){
+    #main-content{
+        margin-top:11.4%;
+    }
+    #carousel{
+        margin-top:2.8% ;
+    }
+}
+@media screen and (max-width: 1280px){
+    #main-content{
+        margin-top:11.9%;
+    }
+    #carousel{
+        margin-top:2.8% ;
+    }
+}
+@media screen and (max-width: 720px){
+    #main-content{
+        margin-top:27.9%;
+    }
+    #carousel{
+        margin-top:3.8% ;
+    }
+}
+#main-content{
+    display: inline-flex;
+    height: 68%;
+    width: 89%;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#main-content-left{
+    width: 14.4%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.catalog{
+    width: 100%;
+    height:18.3% ;
+}
+.catalog img{
+    width: 100%;
+    height:100%;
+}
+
+#main-content-right{
+    width: 83.9%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#right-top{
+    height: 57%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#right-bottom{
+    height:40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.topic1{
+    height: 100%;
+    width:51.8%;
+    box-sizing: border-box;
+}
+.topic2{
+    height: 100%;
+    width:22.5%;
+    box-sizing: border-box;
+}
+.topic3{
+    height: 100%;
+    width:22.5%;
+    box-sizing: border-box;
+}
+.topic4{
+    height: 100%;
+    width:37.1%;
+    box-sizing: border-box;
+}
+.topic5{
+    height: 100%;
+    width:37.1%;
+    box-sizing: border-box;
+}
+.topic6{
+    height: 100%;
+    width:22.5%;
+    box-sizing: border-box;
+}
+.border-blue{
+    width: 100%;
+    height:100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.border-blue:hover{
+    border-radius: 12px;
+    border: 4px solid #88DDE3;
+}
+.border-blue:active{
+    border-radius: 12px;
+    border: 4px solid #88DDE3;
+}
+.topic-img{
+    width: 100%;
+    height: 100%;
+}
+#carousel{
+    position: relative;
+    width: 55.3%;
+    font-family: "Microsoft YaHei";
+    font-size: 2.7rem;
+    color: #f74e4e;
+    display: inline-block;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 2.4rem;
+}
+.notice{
+    display: inline-block;
+    width: 3.0rem;
+    height:2.4rem;
+    margin-right: 1rem;
+}
+
+
+
+
+
+

@@ -1,0 +1,115 @@
+#main-content{
+    margin-top:116px;
+}
+#carousel{
+    margin-top:35px;
+}
+#main-content{
+    display: inline-flex;
+    height: 496px;
+    width: 1134px;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#main-content-left{
+    width: 163px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.catalog{
+    width: 100%;
+    height:88px;
+}
+.catalog img{
+    width: 100%;
+    height:100%;
+}
+#main-content-right{
+    width: 951px;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#right-top{
+    height: 283px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#right-bottom{
+    height:196px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.topic1{
+    height: 100%;
+    width:497px;
+    box-sizing: border-box;
+}
+.topic2{
+    height: 100%;
+    width:216px;
+    box-sizing: border-box;
+}
+.topic3{
+    height: 100%;
+    width:216px;
+    box-sizing: border-box;
+}
+.topic4{
+    height: 100%;
+    width:356px;
+    box-sizing: border-box;
+}
+.topic5{
+    height: 100%;
+    width:356px;
+    box-sizing: border-box;
+}
+.topic6{
+    height: 100%;
+    width:216px;
+    box-sizing: border-box;
+}
+.border-blue{
+    width: 100%;
+    height:100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.border-blue:hover{
+    border-radius: 12px;
+    border: 4px solid #88DDE3;
+}
+.border-blue:active{
+    border-radius: 12px;
+    border: 4px solid #88DDE3;
+}
+.topic-img{
+    width: 100%;
+    height: 100%;
+}
+#carousel{
+    position: relative;
+    width: 708px;
+    font-family: "Microsoft YaHei";
+    font-size: 27px;
+    color: #f74e4e;
+    display: inline-block;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 36px;
+}
+.notice{
+    display: inline-block;
+    width: 39px;
+    height:36px;
+    margin-right: 27px;
+}
