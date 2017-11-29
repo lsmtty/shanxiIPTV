@@ -87,7 +87,7 @@ html,body,#content{
   border-radius:12px;
   box-sizing: border-box;
 }
-.module:hover{
+/*.module:hover{
   border: 4px solid #fff;
   -moz-box-shadow:-3px -1px 100px #88DDE3, 3px 1px 100px #88DDE3; -webkit-box-shadow:-3px -1px 100px #88DDE3, 3px 1px 100px #88DDE3; box-shadow:-3px -1px 100px #88DDE3, 3px 1px 100px #88DDE3;
 
@@ -95,4 +95,4 @@ html,body,#content{
 .module:active{
   border: 4px solid #fff;
   -moz-box-shadow:-3px -1px 100px #88DDE3, 3px 1px 100px #88DDE3; -webkit-box-shadow:-3px -1px 100px #88DDE3, 3px 1px 100px #88DDE3; box-shadow:-3px -1px 100px #88DDE3, 3px 1px 100px #88DDE3;
-}
+}*/

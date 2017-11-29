@@ -56,7 +56,9 @@
 }
 .catalog{
     width: 100%;
-    height:18.3% ;
+    height:33.1%;
+    margin-top: -16.1%;
+    margin-bottom: -16.1%;
 }
 .catalog img{
     width: 100%;
@@ -112,7 +114,7 @@
     width:22.5%;
     box-sizing: border-box;
 }
-.border-blue{
+/*.border-blue{
     width: 100%;
     height:100%;
     display: inline-block;
@@ -125,7 +127,7 @@
 .border-blue:active{
     border-radius: 12px;
     border: 4px solid #88DDE3;
-}
+}*/
 .topic-img{
     width: 100%;
     height: 100%;
