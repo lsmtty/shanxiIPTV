@@ -7,7 +7,7 @@
     color: #543110;
     position: absolute;
     width: 1113px;
-    margin-top: 49px;
+    margin-top: 57px;
 }
 #main-content{
     margin-top: 172px;
@@ -54,16 +54,16 @@
     background-size: 100%;
     background-position: center center;
 }
-#class-list{
+#book-list{
     margin-top: 23px;
-    border-top:1px solid #e1e1e1;
+    border-top:1px solid #d4d4d4;
 }
-#class-list .class-item{
+#book-list .book-item{
     line-height: 51px;
     font-size:26px;
     width: 458px;
 }
-#class-list .class-item span{
+#book-list .book-item span{
     display: inline-block;
     width: 442px;
     line-height: 51px;
@@ -74,21 +74,76 @@
     border-bottom:1px solid #e1e1e1;
     margin-left: -13px;
 }
-#class-list .active{
+#book-list .active{
     background: url("../assets/images/primary/subject_arrow.png");
     background-size: 100%;
     background-position: center center;
 }
-.next-class-page{
+.next-book-page{
     display: inline-block;
     width: 62px;
     height:59px;
     cursor: pointer;
     background: url("../assets/images/primary/arrow_down.png") no-repeat center;
 }
-.next-class-page:hover{
+.next-book-page:hover{
     background: url("../assets/images/primary/arrow_down_active.png");
 }
-.next-class-page:active{
+.next-book-page:active{
     background: url("../assets/images/primary/arrow_down_active.png");
 }
+#class-list{
+    margin-top: 38px;
+    overflow: visible;
+}
+
+#class-list .class-item {
+    font-family: "Microsoft YaHei";
+    font-size: 24px;
+    color: #333;
+    height:76px;
+    line-height:39px ;
+    overflow: visible;
+    margin-top: -22px;
+    white-space: nowrap;
+}
+#class-list .class-item .class-name{
+    display: inline-block;
+    width: 548px;
+    height:76px;
+    text-align: left;
+    line-height: 76px;
+    background: url("../assets/images/primary/class_item_normal.png") no-repeat center;
+    cursor: pointer;
+}
+
+#class-list .class-item .class-name span{
+    display: inline-block;
+    width: 480px;
+    height:76px;
+    line-height: 76px;
+    text-align: left;
+    overflow: hidden;
+    text-indent: 2em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#class-list .class-item .class-collect{
+    display: inline-block;
+    width: 120px;
+    height:76px;
+    line-height:76px ;
+    text-align: center;
+    margin-left: 12px;
+    background: url("../assets/images/primary/class_collect_normal.png") no-repeat center;
+    cursor: pointer;
+    margin-left: -19px;
+    vertical-align: top;
+}
+#class-list .class-item .active{
+    background: url("../assets/images/primary/class_item_active.png") no-repeat center;
+}
+#class-list .class-item .collected{
+    background: url("../assets/images/primary/class_collect_active.png") no-repeat center;
+}
+
