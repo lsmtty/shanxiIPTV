@@ -23,13 +23,13 @@
     width: 442px;
     border-radius: 12px;
     overflow-x:visible;
-    background: #fff;
+    background:rgba(255, 255, 255, 0.8);
 }
 #main-content-right {
     height: 493px;
     width: 645px;
     border-radius: 12px;
-    background: #fff;
+    background:rgba(255, 255, 255, 0.8);
 }
 #volume-list{
     display: inline-flex;
@@ -96,7 +96,6 @@
     margin-top: 38px;
     overflow: visible;
 }
-
 #class-list .class-item {
     font-family: "Microsoft YaHei";
     font-size: 24px;
@@ -146,4 +145,59 @@
 #class-list .class-item .collected{
     background: url("../assets/images/primary/class_collect_active.png") no-repeat center;
 }
+#page-turn{
+    margin-top: 6px;
+}
+#page-turn #page-turn-nav{
+    margin-left: 393px;
+    display: inline-block;
+}
+#page-turn #page-turn-nav .page-turn-item{
+    height: 33px;
+    width: 73px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+#page-turn #page-turn-nav .page-turn-item .img-shadow{
+    display: inline-block;
+    margin-top: 2px;
+    height: 26px;
+    width: 67px;
+}
+#page-turn #page-turn-nav .page-turn-item:hover .img-shadow{
+    -moz-box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE; -webkit-box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE; box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE;
+}
+#page-turn #page-turn-nav .page-turn-item:active .img-shadow{
+    -moz-box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE; -webkit-box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE; box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE;
+}
+#pre-page{
+    background: url("../assets/images/common/prepage1.png");
+    margin-right: 4px;
+}
+#pre-page:hover{
+    background: url("../assets/images/common/prepage2.png");
+}
+#pre-page:active{
+    background: url("../assets/images/common/prepage2.png");
+}
+#next-page{
+    background: url("../assets/images/common/nextpage1.png");
+    margin-right: 2px;
+}
+#next-page:hover{
+    background: url("../assets/images/common/nextpage2.png");
+}
+#next-page:active{
+    background: url("../assets/images/common/nextpage1.png");
+}
+#page-index{
+    margin-left: 6px;
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    vertical-align: top;
+    line-height: 33px;
+}
+
+
 

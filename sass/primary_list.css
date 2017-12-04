@@ -1,58 +1,51 @@
-@media screen and (min-width: 2161px){
-    #main-content{
-        margin-top:17.9%;
-    }
-}
-@media screen and (max-width: 2160px){
-    #main-content{
-        margin-top:17.9%;
-    }
-}
-
-@media screen and (max-width: 1550px){
-    #main-content{
-        margin-top:17.9%;
-    }
-}
-
-@media screen and (max-width: 1280px){
-    #main-content{
-        margin-top:19.1%;
-    }
-}
-
-@media screen and (max-width: 720px){
-    #main-content{
-        margin-top:27.9%;
-    }
-}
 #main-content{
     display: inline-flex;
-    height: 52.0%;
-    width: 84.2%;
+    height: 367px;
+    width: 1140px;
+    margin-left: 62px;
     position: relative;
-    flex-direction: row;
-    justify-content: space-between;
+    margin-top:240px;
 }
-
 #main-content-left{
-    height:100%;
+    height:381px;
     display: flex;
-    width: 15.6%;
+    overflow-x: visible;
+    white-space: nowrap;
+    width: 154px;
+    border-radius: 12px;
+    background:rgba(255, 255, 255, 0.5);
+    margin-right:76px ;
 }
-
 #main-content-right{
+    text-align: left;
+    margin-top: -19.5px;
     height:100%;
-    width: 79.2%;
-    display: flex;
-    flex-flow:row wrap;
-    justify-content: space-between;
-    align-items:flex-start ;
+    width: 903px;
 }
-
+#grade-list{
+    width: 100%;
+    padding-top: 20px;
+    overflow-x: visible;
+    text-align: center;
+}
+#grade-list .grade-item{
+    width: 168px;
+    margin:0 0 5px -7px;
+    font-family: "Microsoft YaHei";
+    font-size: 26px;
+    color: #000;
+    height: 51px;
+    cursor: pointer;
+}
+#grade-list .active{
+    background: url("../assets/images/primary/choose_grade2.png") no-repeat center;
+}
 .subject{
-    width: 30.2%;
-    height:48.0% ;
+    display: inline-block;
+    width: 332px;
+    height:251px;
+    margin-left: -37px;
+    margin-bottom: -61.5px;
 }
 .subject img{
     width: 100%;
