@@ -1,0 +1,160 @@
+#main-content{
+    margin-top: 70px;
+    display: inline-flex;
+    height: 493px;
+    width: 1139px;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#main-content-right {
+    margin-left: 675px;
+    height: 568px;
+    width: 521px;
+    border-radius: 12px;
+    background:rgba(255, 255, 255, 0.5);
+}
+#class-parent-list{
+    overflow: visible;
+    height: 100%;
+}
+#class-parent-list .class-parent-item {
+    font-family: "Microsoft YaHei";
+    font-size: 0px;
+    color: #000;
+    height:52px;
+    line-height:52px ;
+    overflow: visible;
+    white-space: nowrap;
+    cursor: pointer;
+    border-bottom:1px solid #fefae8;
+    box-sizing: border-box;
+}
+#class-parent-list .class-parent-item:nth-last-child(1){
+    border-bottom: none;
+}
+#class-parent-list .class-parent-item span{
+    display: inline-block;
+    width: 464px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 25px;
+}
+#class-parent-list .active{
+    color: #fff;
+    background:#21a2fc;
+    border-radius:12px 12px 0 0;
+    border-bottom: none;
+}
+#class-parent-list .class-parent-item:before{
+    content: close-quote;
+    display: inline-block;
+    width: 50px;
+    height: 52px;
+    background: url("../assets/images/seminar/list_nav_close.png") no-repeat center;
+}
+#class-parent-list .active:before{
+    content: close-quote;
+    display: inline-block;
+    width: 50px;
+    height: 52px;
+    background: url("../assets/images/seminar/list_nav_open.png") no-repeat center;
+}
+#class-parent-list .class-child-item {
+    font-family: "Microsoft YaHei";
+    font-size: 0;
+    color: #000;
+    height:52px;
+    line-height:52px ;
+    overflow: visible;
+    white-space: nowrap;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-indent: 84px;
+    margin-left: -18px;
+    width: 560px;
+}
+#class-parent-list .class-child-item span{
+    font-size: 21px;
+    vertical-align: text-bottom;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 353px;
+    display: inline-block;
+    text-indent: 0;
+}
+#class-parent-list .choose{
+    color: #f1f1f1;
+}
+#class-parent-list .class-child-item:before{
+    content: close-quote;
+    display: inline-block;
+    height: 52px;
+    width: 35px;
+    background:url("../assets/images/seminar/child_item_normal.png") no-repeat center;
+}
+#class-parent-list .choose:before{
+    content: close-quote;
+    display: inline-block;
+    height: 52px;
+    width: 35px;
+    background:url("../assets/images/seminar/child_item_choose.png") no-repeat center;
+}
+#class-parent-list .choose{
+    background: url("../assets/images/seminar/class_child_choose.png") 0 -10px;
+}
+#page-turn{
+    margin-top: 20px;
+}
+#page-turn #page-turn-nav{
+    margin-left: 318px;
+    display: inline-block;
+}
+#page-turn #page-turn-nav .page-turn-item{
+    height: 33px;
+    width: 73px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+#page-turn #page-turn-nav .page-turn-item .img-shadow{
+    display: inline-block;
+    margin-top: 2px;
+    height: 26px;
+    width: 67px;
+}
+#page-turn #page-turn-nav .page-turn-item:hover .img-shadow{
+    -moz-box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE; -webkit-box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE; box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE;
+}
+#page-turn #page-turn-nav .page-turn-item:active .img-shadow{
+    -moz-box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE; -webkit-box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE; box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE;
+}
+#pre-page{
+    background: url("../assets/images/common/prepage1.png");
+    margin-right: 4px;
+}
+#pre-page:hover{
+    background: url("../assets/images/common/prepage2.png");
+}
+#pre-page:active{
+    background: url("../assets/images/common/prepage2.png");
+}
+#next-page{
+    background: url("../assets/images/common/nextpage1.png");
+    margin-right: 2px;
+}
+#next-page:hover{
+    background: url("../assets/images/common/nextpage2.png");
+}
+#next-page:active{
+    background: url("../assets/images/common/nextpage1.png");
+}
+#page-index{
+    margin-left: 6px;
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    vertical-align: top;
+    line-height: 33px;
+}

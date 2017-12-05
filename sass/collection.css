@@ -1,0 +1,184 @@
+#subject-name{
+    display: inline-block;
+    text-align: center;
+    font-family: AdobeHeitiStd-Regular;
+    font-size:48px;
+    line-height: 48px;
+    color: #543110;
+    position: absolute;
+    width: 1113px;
+    margin-top: 57px;
+}
+#main-content{
+    margin-top: 86px;
+    display: inline-flex;
+    height: 493px;
+    width: 1139px;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#main-content-left{
+    height: 557px;
+    width: 184px;
+    overflow-x:visible;
+    margin-right: 16px;
+}
+#type-list{
+    height: 365px;
+    border-radius: 12px;
+    background:rgba(255, 255, 255, 0.8);
+    width: 100%;
+    padding-top: 20px;
+    overflow-x: visible;
+    text-align: center;
+}
+#type-list .type-item{
+    width: 198px;
+    margin:0 0 5px -7px;
+    font-family: "Microsoft YaHei";
+    font-size: 26px;
+    color: #000;
+    height: 51px;
+    cursor: pointer;
+}
+#type-list .active {
+    background: url("../assets/images/collection/choose_type.png") no-repeat center;
+}
+#delete-type{
+    margin-top: 45px;
+    width: 180px;
+    height: 67px;
+    display: inline-block;
+    cursor: pointer;
+}
+.delete-recent{
+    background: url("../assets/images/collection/delete_recent_normal.png") no-repeat center;
+}
+.delete-recent:hover{
+    background: url("../assets/images/collection/delete_recent_active.png") no-repeat center;
+}
+.delete-recent:active{
+    background: url("../assets/images/collection/delete_recent_active.png") no-repeat center;
+}
+.delete-collection{
+    background: url("../assets/images/collection/delete_collection_normal.png") no-repeat center;
+}
+.delete-collection:hover{
+    background: url("../assets/images/collection/delete_collection_active.png") no-repeat center;
+}
+.delete-collection:active{
+    background: url("../assets/images/collection/delete_collection_active.png") no-repeat center;
+}
+#main-content-right {
+    height: 557px;
+    width: 939px;
+    border-radius: 12px;
+    background:rgba(255, 255, 255, 0.8);
+}
+#class-list{
+    margin-top: 29px;
+    overflow: visible;
+    height: 500px;
+}
+#class-list .class-item {
+    font-family: "Microsoft YaHei";
+    font-size: 24px;
+    color: #333;
+    height:76px;
+    line-height:39px ;
+    overflow: visible;
+    margin-top: -23px;
+    white-space: nowrap;
+}
+#class-list .class-item .class-name{
+    display: inline-block;
+    width: 784px;
+    height:76px;
+    text-align: left;
+    line-height: 76px;
+    background: url("../assets/images/collection/collection_item_normal.png") no-repeat center;
+    cursor: pointer;
+}
+#class-list .class-item .class-name span{
+    display: inline-block;
+    width: 616px;
+    height:76px;
+    line-height: 76px;
+    text-align: left;
+    overflow: hidden;
+    text-indent: 2em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#class-list .class-item .class-collect{
+    display: inline-block;
+    width: 162px;
+    height:76px;
+    line-height:76px ;
+    text-align: center;
+    margin-left: 12px;
+    background: url("../assets/images/collection/collection_delete_normal.png") no-repeat center;
+    cursor: pointer;
+    margin-left: -19px;
+    vertical-align: top;
+}
+#class-list .class-item .active{
+    background: url("../assets/images/collection/collection_item_active.png") no-repeat center;
+}
+#class-list .class-item .collected{
+    background: url("../assets/images/collection/collection_delete_active.png") no-repeat center;
+}
+#page-turn{
+    margin-top: 6px;
+}
+#page-turn #page-turn-nav{
+    margin-left: 693px;
+    display: inline-block;
+}
+#page-turn #page-turn-nav .page-turn-item{
+    height: 33px;
+    width: 73px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+#page-turn #page-turn-nav .page-turn-item .img-shadow{
+    display: inline-block;
+    margin-top: 2px;
+    height: 26px;
+    width: 67px;
+}
+#page-turn #page-turn-nav .page-turn-item:hover .img-shadow{
+    -moz-box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE; -webkit-box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE; box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE;
+}
+#page-turn #page-turn-nav .page-turn-item:active .img-shadow{
+    -moz-box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE; -webkit-box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE; box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE;
+}
+#pre-page{
+    background: url("../assets/images/common/prepage1.png");
+    margin-right: 4px;
+}
+#pre-page:hover{
+    background: url("../assets/images/common/prepage2.png");
+}
+#pre-page:active{
+    background: url("../assets/images/common/prepage2.png");
+}
+#next-page{
+    background: url("../assets/images/common/nextpage1.png");
+    margin-right: 2px;
+}
+#next-page:hover{
+    background: url("../assets/images/common/nextpage2.png");
+}
+#next-page:active{
+    background: url("../assets/images/common/nextpage1.png");
+}
+#page-index{
+    margin-left: 6px;
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    vertical-align: top;
+    line-height: 33px;
+}

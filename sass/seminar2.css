@@ -1,0 +1,181 @@
+#subject-name{
+    display: inline-block;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    font-size:26px;
+    line-height: 30px;
+    color: #000;
+    position: absolute;
+    margin-top: 26px;
+    line-height: 43px;
+    margin-left: 2px;
+}
+#subject-name span{
+    display: inline-block;
+    text-indent: 20px;
+}
+#subject-name:before{
+    content: close-quote;
+    width:42px ;
+    height: 43px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    background: url("../assets/images/seminar/subject_icon.png") no-repeat center;
+}
+#main-content{
+    margin-right: 15px;
+    margin-top: 100px;
+    display: inline-flex;
+    height: 546px;
+    width: 1113px;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#main-content-left{
+    height: 546px;
+    width: 206px;
+    border-radius: 12px;
+    overflow-x:visible;
+    margin-right: 24px;
+    background:rgba(255, 255, 255, 0.8);
+}
+#main-content-right {
+    height: 546px;
+    width: 904px;
+    border-radius: 12px;
+    background:rgba(255, 255, 255, 0.8);
+}
+#book-list{
+    margin-top: 23px;
+    overflow-x: visible;
+}
+#book-list .book-item{
+    line-height: 51px;
+    font-size:26px;
+    width: 206px;
+    overflow-x: visible;
+}
+#book-list .book-item span{
+    display: inline-block;
+    overflow-x: visible;
+    width: 206px;
+    line-height: 51px;
+    font-size:24px;
+    text-align: center;
+    cursor: pointer;
+}
+#book-list .active span{
+    display: inline-block;
+    color: #fff;
+    width: 221px;
+    text-indent: -15px;
+    background: url("../assets/images/seminar/book_choose.png") no-repeat center;
+}
+#class-list{
+    margin-top: 38px;
+    overflow: visible;
+    height: 508px;
+}
+#class-list .class-item {
+    font-family: "Microsoft YaHei";
+    font-size: 24px;
+    color: #333;
+    height:76px;
+    line-height:39px ;
+    overflow: visible;
+    margin-top: -28px;
+    white-space: nowrap;
+}
+#class-list .class-item .class-name{
+    display: inline-block;
+    width: 799px;
+    height:76px;
+    text-align: left;
+    line-height: 76px;
+    background: url("../assets/images/seminar/class_item_normal.png") no-repeat center;
+    cursor: pointer;
+}
+
+#class-list .class-item .class-name span{
+    display: inline-block;
+    width: 680px;
+    height:76px;
+    line-height: 76px;
+    text-align: left;
+    overflow: hidden;
+    text-indent: 2em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#class-list .class-item .class-collect{
+    display: inline-block;
+    width: 120px;
+    height:76px;
+    line-height:76px ;
+    text-align: center;
+    margin-left: 12px;
+    background: url("../assets/images/seminar/class_collect_normal.png") no-repeat center;
+    cursor: pointer;
+    margin-left: -19px;
+    vertical-align: top;
+}
+#class-list .class-item .active{
+    background: url("../assets/images/seminar/class_item_active.png") no-repeat center;
+}
+#class-list .class-item .collected{
+    background: url("../assets/images/seminar/class_collect_active.png") no-repeat center;
+}
+#page-turn{
+    margin-top: -10px;
+}
+#page-turn #page-turn-nav{
+    margin-left: 665px;
+    display: inline-block;
+}
+#page-turn #page-turn-nav .page-turn-item{
+    height: 33px;
+    width: 73px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+#page-turn #page-turn-nav .page-turn-item .img-shadow{
+    display: inline-block;
+    margin-top: 2px;
+    height: 26px;
+    width: 67px;
+}
+#page-turn #page-turn-nav .page-turn-item:hover .img-shadow{
+    -moz-box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE; -webkit-box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE; box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE;
+}
+#page-turn #page-turn-nav .page-turn-item:active .img-shadow{
+    -moz-box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE; -webkit-box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE; box-shadow:4px 4px 30px #11FBFE, -4px -4px 30px #11FBFE;
+}
+#pre-page{
+    background: url("../assets/images/common/prepage1.png");
+    margin-right: 4px;
+}
+#pre-page:hover{
+    background: url("../assets/images/common/prepage2.png");
+}
+#pre-page:active{
+    background: url("../assets/images/common/prepage2.png");
+}
+#next-page{
+    background: url("../assets/images/common/nextpage1.png");
+    margin-right: 2px;
+}
+#next-page:hover{
+    background: url("../assets/images/common/nextpage2.png");
+}
+#next-page:active{
+    background: url("../assets/images/common/nextpage1.png");
+}
+#page-index{
+    margin-left: 6px;
+    font-family: "Microsoft YaHei";
+    font-size: 20px;
+    vertical-align: top;
+    line-height: 33px;
+}
