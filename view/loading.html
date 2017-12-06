@@ -9,7 +9,14 @@
 <img id="bg-img" src="../assets/images/loading/loading_background.png"/>
 <div id="main-content">
     <div id="moon"><img src="../assets/images/loading/moon.png"/></div>
-    <div id="rocket"><img src="../assets/images/loading/rocket.png"/></div>
+    <div id="rocket">
+        <div id="body">
+            <img src="../assets/images/loading/body.png"/>
+        </div>
+        <div id="fire">
+            <img src="../assets/images/loading/fire.png"/>
+        </div>
+    </div>
 </div>
 </body>
 <style>
@@ -26,81 +33,131 @@
         width: 124px;
         height: 77px;
         margin-top: 87px;
+        animation:moonfly 4s ease-in-out 0s infinite alternate none; ;
+        -webkit-animation:moonfly 4s ease-in-out 0s infinite alternate none; ;
     }
     #rocket{
-        animation: flight 3s ease-in-out 0s infinite alternate none;
-        -webkit-animation: flight 3s ease-in-out 0s infinite alternate none;
+        animation: flight 2s ease-in-out 0s infinite alternate none;
+        -webkit-animation: flight 2s ease-in-out 0s infinite alternate none;
         width:184px ;
         height: 232px;
     }
-    #animation {
-        animation: flight 3s ease-in-out 0s infinite alternate none;
-        -webkit-animation: flight 3s ease-in-out 0s infinite alternate none;
-        width: 50%;
-        float: right;
-        height: 100%;
-        z-index: 100;
-        margin-top: 300px;
-        margin-right: 400px;
+    #fire{
+        margin-top: -69px;
+        margin-left: 100px;
+        -webkit-animation: burn 2s ease-in-out 0s infinite alternate none;;
+    }
+    @keyframes moonfly {
+        100%{
+            -webkit-transform: translate(20px);
+            -moz-transform:translate(20px);
+            -ms-transform: translate(20px);
+            -o-transform: translate(20px);
+            transform: translate(20px);
+        }
+        50% {
+            -webkit-transform: translate(-20px);
+            -moz-transform:translate(-20px);
+            -ms-transform: translate(-20px);
+            -o-transform: translate(-20px);
+            transform: translate(-20px);
+        }
+        0% {
+            -webkit-transform: translate(20px);
+            -moz-transform:translate(20px);
+            -ms-transform: translate(20px);
+            -o-transform: translate(20px);
+            transform: translate(20px);
+        }
     }
     @keyframes flight {
-        100% {
-            -webkit-transform: translate(40px, 60px) rotate(-4deg);
-            -moz-transform: translate(40px, 60px);
-            -ms-transform: translate(40px, 60px);
-            -o-transform: translate(40px, 60px);
-            transform: translate(40px, 60px)
+        100%{
+            -webkit-transform: translate(10px, 15px);
+            -moz-transform:translate(10px, 15px);
+            -ms-transform: translate(10px, 15px);
+            -o-transform: translate(10px, 15px);
+            transform: translate(10px, 15px);
         }
         66% {
-            -webkit-transform: translate(-30px, -50px) rotate(5deg);
-            -moz-transform: translate(-30px, -50px) rotate(5deg);
-            -ms-transform: translate(-30px, -50px) rotate(5deg);
-            -o-transform: translate(-30px, -50px) rotate(5deg);
-            transform: translate(-30px, -50px) rotate(5deg)
+            -webkit-transform: translate(-10px, -13px) ;
+            -moz-transform: translate(-10px, -13px);
+            -ms-transform: translate(-10px, -13px) ;
+            -o-transform: translate(-10px, -13px);
+            transform: translate(-10px, -13px);
         }
         36% {
-            -webkit-transform: translate(50px, 40px) rotate(-6deg);
-            -moz-transform: translate(50px, 40px) rotate(-6deg);
-            -ms-transform: translate(50px, 40px) rotate(-6deg);
-            -o-transform: translate(50px, 40px) rotate(-6deg);
-            transform: translate(50px, 40px) rotate(-6deg)
+            -webkit-transform: translate(10px, 15px);
+            -moz-transform: translate(10px, 15px);
+            -ms-transform: translate(10px, 15px);
+            -o-transform: translate(10px, 15px);
+            transform: translate(10px, 15px);
         }
         0% {
-            -webkit-transform: translate(-40px, -30px) rotate(5deg);
-            -moz-transform: translate(-40px, -30px) rotate(5deg);
-            -ms-transform: translate(-40px, -30px) rotate(5deg);
-            -o-transform: translate(-40px, -30px) rotate(5deg);
-            transform: translate(-40px, -30px) rotate(5deg)
+            -webkit-transform: translate(-10px, -13px);
+            -moz-transform: translate(-10px, -13px);
+            -ms-transform: translate(-10px, -13px);
+            -o-transform: translate(-10px, -13px);
+            transform: translate(-10px, -13px);
         }
     }
-    @-webkit-keyframes flight {
-        100% {
-            -webkit-transform: translate(40px, 60px) rotate(-4deg);
-            -moz-transform: translate(40px, 60px);
-            -ms-transform: translate(40px, 60px);
-            -o-transform: translate(40px, 60px);
-            transform: translate(40px, 60px)
+    @-webkit-keyframes  flight{
+        100%{
+            -webkit-transform: translate(10px, 15px);
+            -moz-transform:translate(10px, 15px);
+            -ms-transform: translate(10px, 15px);
+            -o-transform: translate(10px, 15px);
+            transform: translate(10px, 15px);
         }
         66% {
-            -webkit-transform: translate(-30px, -50px) rotate(5deg);
-            -moz-transform: translate(-30px, -50px) rotate(5deg);
-            -ms-transform: translate(-30px, -50px) rotate(5deg);
-            -o-transform: translate(-30px, -50px) rotate(5deg);
-            transform: translate(-30px, -50px) rotate(5deg)
+            -webkit-transform: translate(-10px, -13px) ;
+            -moz-transform: translate(-10px, -13px);
+            -ms-transform: translate(-10px, -13px) ;
+            -o-transform: translate(-10px, -13px);
+            transform: translate(-10px, -13px);
         }
         36% {
-            -webkit-transform: translate(50px, 40px) rotate(-6deg);
-            -moz-transform: translate(50px, 40px) rotate(-6deg);
-            -ms-transform: translate(50px, 40px) rotate(-6deg);
-            -o-transform: translate(50px, 40px) rotate(-6deg);
-            transform: translate(50px, 40px) rotate(-6deg)
+            -webkit-transform: translate(10px, 15px);
+            -moz-transform: translate(10px, 15px);
+            -ms-transform: translate(10px, 15px);
+            -o-transform: translate(10px, 15px);
+        transform: translate(10px, 15px);
         }
         0% {
-            -webkit-transform: translate(-40px, -30px) rotate(5deg);
-            -moz-transform: translate(-40px, -30px) rotate(5deg);
-            -ms-transform: translate(-40px, -30px) rotate(5deg);
-            -o-transform: translate(-40px, -30px) rotate(5deg);
-            transform: translate(-40px, -30px) rotate(5deg)
+            -webkit-transform: translate(-10px, -13px);
+            -moz-transform: translate(-10px, -13px);
+            -ms-transform: translate(-10px, -13px);
+            -o-transform: translate(-10px, -13px);
+            transform: translate(-10px, -13px);
+        }
+    }
+    @-webkit-keyframes burn {
+        100% {
+            -webkit-transform: scale(1.1,1.1);
+            -moz-transform: scale(1.1,1.1);
+            -ms-transform: scale(1.1,1.1);
+            -o-transform: scale(1.1,1.1);
+            transform: scale(1.1,1.1);
+        }
+        66% {
+            -webkit-transform: scale(1.0,1.0);
+            -moz-transform: scale(1.0,1.0);
+            -ms-transform: scale(1.0,1.0);
+            -o-transform: scale(1.0,1.0);
+            transform: scale(1.0,1.0);
+        }
+        36% {
+            -webkit-transform: scale(1.1,1.1);
+            -moz-transform: scale(1.1,1.1);
+            -ms-transform: scale(1.1,1.1);
+            -o-transform: scale(1.1,1.1);
+            transform: scale(1.1,1.1);
+        }
+        0% {
+            -webkit-transform: scale(1.0,1.0);
+            -moz-transform: scale(1.0,1.0);
+            -ms-transform: scale(1.0,1.0);
+            -o-transform: scale(1.0,1.0);
+            transform: scale(1.0,1.0);
         }
     }
 </style>
