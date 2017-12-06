@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>山西IPTV-高中</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta content="telephone=no" name="format-detection">
+    <link href="../sass/base2.css" rel="stylesheet">
+    <link href="../sass/primary_subject.css" rel="stylesheet">
+    <script src="../lib/jquery-1.9.1.js"></script>
+</head>
+<style>
+    #volume-list {
+        padding: 0;
+    }
+    #volume-list li{
+        width: 20%;
+    }
+    #volume-list .active {
+        background: url("../assets/images/senior/volume_active.png") no-repeat center;
+    }
+    #book-list .book-item{
+        overflow: visible;
+        height: 55px;
+        width: 442px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #c1c1c1;
+    }
+    #book-list .book-item span{
+        width: 495px;
+        height: 91px;
+        line-height: 91px;
+        border-bottom: none;
+        margin-left: -23px;
+        text-indent: 56px;
+        margin-top: -22px;
+    }
+    #book-list .active{
+        background: none;
+        color: #fff;
+    }
+    #book-list .active span{
+        background: url(../assets/images/senior/subject_arrow.png) no-repeat center;
+    }
+    #class-list .class-item .active {
+        background: url(../assets/images/senior/class_item_active.png) no-repeat center;
+    }
+    #class-list .class-item .collected {
+        background: url(../assets/images/senior/class_collect_active.png) no-repeat center;
+    }
+</style>
+<body id="content">
+<img id="bg-img" src="../assets/images/middle/middle_subject_background.png"/>
+<span id="subject-name">高一语文</span>
+<div id="main-content">
+    <div id="main-content-left">
+        <ul id="volume-list">
+            <li class="volume-item active">必修1</li>
+            <li class="volume-item ">必修2</li>
+            <li class="volume-item ">必修3</li>
+            <li class="volume-item ">必修4</li>
+            <li class="volume-item ">作文</li>
+        </ul>
+        <ul id="book-list">
+            <li class="book-item"><span>语言运用（初一上）</span></li>
+            <li class="book-item"><span>阅读（初一上）</span></li>
+            <li class="book-item"><span>阅读（初一上）</span></li>
+            <li class="book-item"><span>阅读（初一上）</span></li>
+            <li class="book-item active"><span>阅读（初一上）</span></li>
+            <li class="book-item"><span>阅读（初一上）</span></li>
+            <li class="book-item"><span>阅读（初一上）</span></li>
+        </ul>
+        <span class="next-book-page"></span>
+    </div>
+    <div id="main-content-right">
+        <ul id="class-list">
+            <li class="class-item"><span class="class-name active"><span>汉字</span></span><span class="class-collect collected">收藏</span></li>
+            <li class="class-item"><span class="class-name"><span>词的分类</span></span><span class="class-collect">收藏</span></li>
+            <li class="class-item"><span class="class-name"><span>短语结构</span></span><span class="class-collect">收藏</span></li>
+            <li class="class-item"><span class="class-name"><span>单句的结构</span></span><span class="class-collect">收藏</span></li>
+            <li class="class-item"><span class="class-name active"><span>名著阅读名著阅读名著阅读名著阅读名著阅读</span></span><span class="class-collect">收藏</span></li>
+            <li class="class-item"><span class="class-name"><span>文言文阅读（一）</span></span><span class="class-collect">收藏</span></li>
+            <li class="class-item"><span class="class-name"><span>文言文阅读（二）</span></span><span class="class-collect">收藏</span></li>
+        </ul>
+        <div id="page-turn">
+            <div id="page-turn-nav">
+                <span class="page-turn-item" id="pre-page"><span class="img-shadow"></span></span>
+                <span class="page-turn-item" id="next-page"><span class="img-shadow"></span></span>
+            </div>
+            <span id="page-index">1/2</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>

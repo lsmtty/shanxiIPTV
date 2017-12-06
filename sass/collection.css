@@ -124,9 +124,11 @@
     vertical-align: top;
 }
 #class-list .class-item .active{
+    color: #fff;
     background: url("../assets/images/collection/collection_item_active.png") no-repeat center;
 }
 #class-list .class-item .collected{
+    color: #fff;
     background: url("../assets/images/collection/collection_delete_active.png") no-repeat center;
 }
 #page-turn{

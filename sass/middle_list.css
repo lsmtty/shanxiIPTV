@@ -1,0 +1,53 @@
+#main-content{
+    display: inline-flex;
+    height: 367px;
+    width: 1140px;
+    margin-left: 62px;
+    position: relative;
+    margin-top:240px;
+}
+#main-content-left{
+    height:381px;
+    display: flex;
+    overflow-x: visible;
+    white-space: nowrap;
+    width: 154px;
+    border-radius: 12px;
+    background:rgba(255, 255, 255, 0.5);
+    margin-right:76px ;
+}
+#main-content-right{
+    text-align: left;
+    margin-top: -19.5px;
+    height:100%;
+    width: 903px;
+}
+#grade-list{
+    width: 100%;
+    padding-top: 20px;
+    overflow-x: visible;
+    text-align: center;
+}
+#grade-list .grade-item{
+    width: 168px;
+    margin:0 0 5px -7px;
+    font-family: "Microsoft YaHei";
+    font-size: 26px;
+    color: #000;
+    height: 51px;
+    cursor: pointer;
+}
+#grade-list .active{
+    background: url("../assets/images/primary/choose_grade2.png") no-repeat center;
+}
+.subject{
+    display: inline-block;
+    width: 332px;
+    height:251px;
+    margin-left: -37px;
+    margin-bottom: -61.5px;
+}
+.subject img{
+    width: 100%;
+    height:100%;
+}

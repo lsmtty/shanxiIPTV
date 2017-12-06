@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>loading-demo</title>
+    <link href="../sass/base2.css" rel="stylesheet">
+</head>
+<body id="content">
+<img id="bg-img" src="../assets/images/loading/loading_background.png"/>
+<div id="main-content">
+    <div id="moon"><img src="../assets/images/loading/moon.png"/></div>
+    <div id="rocket"><img src="../assets/images/loading/rocket.png"/></div>
+</div>
+</body>
+<style>
+    #main-content{
+        margin-top: 171px;
+        display: inline-flex;
+        height: 269px;
+        width: 403px;
+        position: relative;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #moon{
+        width: 124px;
+        height: 77px;
+        margin-top: 87px;
+    }
+    #rocket{
+        animation: flight 3s ease-in-out 0s infinite alternate none;
+        -webkit-animation: flight 3s ease-in-out 0s infinite alternate none;
+        width:184px ;
+        height: 232px;
+    }
+    #animation {
+        animation: flight 3s ease-in-out 0s infinite alternate none;
+        -webkit-animation: flight 3s ease-in-out 0s infinite alternate none;
+        width: 50%;
+        float: right;
+        height: 100%;
+        z-index: 100;
+        margin-top: 300px;
+        margin-right: 400px;
+    }
+    @keyframes flight {
+        100% {
+            -webkit-transform: translate(40px, 60px) rotate(-4deg);
+            -moz-transform: translate(40px, 60px);
+            -ms-transform: translate(40px, 60px);
+            -o-transform: translate(40px, 60px);
+            transform: translate(40px, 60px)
+        }
+        66% {
+            -webkit-transform: translate(-30px, -50px) rotate(5deg);
+            -moz-transform: translate(-30px, -50px) rotate(5deg);
+            -ms-transform: translate(-30px, -50px) rotate(5deg);
+            -o-transform: translate(-30px, -50px) rotate(5deg);
+            transform: translate(-30px, -50px) rotate(5deg)
+        }
+        36% {
+            -webkit-transform: translate(50px, 40px) rotate(-6deg);
+            -moz-transform: translate(50px, 40px) rotate(-6deg);
+            -ms-transform: translate(50px, 40px) rotate(-6deg);
+            -o-transform: translate(50px, 40px) rotate(-6deg);
+            transform: translate(50px, 40px) rotate(-6deg)
+        }
+        0% {
+            -webkit-transform: translate(-40px, -30px) rotate(5deg);
+            -moz-transform: translate(-40px, -30px) rotate(5deg);
+            -ms-transform: translate(-40px, -30px) rotate(5deg);
+            -o-transform: translate(-40px, -30px) rotate(5deg);
+            transform: translate(-40px, -30px) rotate(5deg)
+        }
+    }
+    @-webkit-keyframes flight {
+        100% {
+            -webkit-transform: translate(40px, 60px) rotate(-4deg);
+            -moz-transform: translate(40px, 60px);
+            -ms-transform: translate(40px, 60px);
+            -o-transform: translate(40px, 60px);
+            transform: translate(40px, 60px)
+        }
+        66% {
+            -webkit-transform: translate(-30px, -50px) rotate(5deg);
+            -moz-transform: translate(-30px, -50px) rotate(5deg);
+            -ms-transform: translate(-30px, -50px) rotate(5deg);
+            -o-transform: translate(-30px, -50px) rotate(5deg);
+            transform: translate(-30px, -50px) rotate(5deg)
+        }
+        36% {
+            -webkit-transform: translate(50px, 40px) rotate(-6deg);
+            -moz-transform: translate(50px, 40px) rotate(-6deg);
+            -ms-transform: translate(50px, 40px) rotate(-6deg);
+            -o-transform: translate(50px, 40px) rotate(-6deg);
+            transform: translate(50px, 40px) rotate(-6deg)
+        }
+        0% {
+            -webkit-transform: translate(-40px, -30px) rotate(5deg);
+            -moz-transform: translate(-40px, -30px) rotate(5deg);
+            -ms-transform: translate(-40px, -30px) rotate(5deg);
+            -o-transform: translate(-40px, -30px) rotate(5deg);
+            transform: translate(-40px, -30px) rotate(5deg)
+        }
+    }
+</style>
+</html>

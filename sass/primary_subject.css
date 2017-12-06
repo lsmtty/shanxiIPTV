@@ -50,9 +50,8 @@
     cursor: pointer;
 }
 #volume-list .active{
-    background: url("../assets/images/primary/volume_active.png");
-    background-size: 100%;
-    background-position: center center;
+    background: url("../assets/images/primary/volume_active.png") no-repeat center;
+    color: #fff;
 }
 #book-list{
     margin-top: 23px;
@@ -62,6 +61,7 @@
     line-height: 51px;
     font-size:26px;
     width: 458px;
+    color: #333;
 }
 #book-list .book-item span{
     display: inline-block;
@@ -73,6 +73,9 @@
     cursor: pointer;
     border-bottom:1px solid #e1e1e1;
     margin-left: -13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 #book-list .active{
     background: url("../assets/images/primary/subject_arrow.png");
@@ -95,6 +98,7 @@
 #class-list{
     margin-top: 38px;
     overflow: visible;
+    height: 400px;
 }
 #class-list .class-item {
     font-family: "Microsoft YaHei";
@@ -198,6 +202,3 @@
     vertical-align: top;
     line-height: 33px;
 }
-
-
-
