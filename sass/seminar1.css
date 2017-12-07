@@ -40,6 +40,7 @@
     white-space: nowrap;
     overflow: hidden;
     font-size: 25px;
+    text-align: left;
 }
 #class-parent-list .active{
     color: #fff;
@@ -84,6 +85,7 @@
     width: 353px;
     display: inline-block;
     text-indent: 0;
+    text-align: left;
 }
 #class-parent-list .choose{
     color: #f1f1f1;
